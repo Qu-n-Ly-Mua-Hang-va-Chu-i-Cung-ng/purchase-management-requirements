@@ -23,6 +23,16 @@ body:
     validations:
       required: true
 
+    - type: dropbox
+    id: version
+    attributes: 
+      label: version name
+      description: v0.1, v0.5, v1.0
+      placeholder: Upload version
+    validations:
+      required: true
+      
+
   - type: textarea
     id: description
     attributes:
