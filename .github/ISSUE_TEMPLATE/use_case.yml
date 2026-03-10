@@ -23,15 +23,17 @@ body:
     validations:
       required: true
 
-    - type: dropbox
+  - type: dropdown
     id: version
-    attributes: 
-      label: version name
-      description: v0.1, v0.5, v1.0
-      placeholder: Upload version
+    attributes:
+      label: Version
+      description: Select version of the use case
+      options:
+        - v0.1
+        - v0.5
+        - v1.0
     validations:
       required: true
-      
 
   - type: textarea
     id: description
@@ -144,7 +146,7 @@ body:
     attributes:
       label: Related Feature (Traceability)
       description: Feature(s) this use case implements or derives from
-      placeholder: Implemented by <số hiệu FEAT>, eg. Implemented by #12 
+      placeholder: Implemented by <FEAT-ID>, e.g. Implemented by #12
     validations:
       required: true
 
