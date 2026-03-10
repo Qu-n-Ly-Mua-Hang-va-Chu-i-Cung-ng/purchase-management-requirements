@@ -20,6 +20,14 @@ body:
     attributes:
       label: Acceptance Criteria (Testable)
 
+ - type: dropbox
+      attributes:
+      label: version
+      options:
+      - v0.1
+      - v0.5
+      - v1.0
+
   - type: textarea
     attributes:
       label: Related Feature , or Constrained by <FEAT ID>, eg. Constrained by #56
