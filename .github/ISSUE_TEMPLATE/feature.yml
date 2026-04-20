@@ -14,7 +14,19 @@ body:
         - Approved
         - Implemented
         - Validated
-
+        
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: Select version of the feature
+      options:
+        - v0.1
+        - v0.5
+        - v1.0
+    validations:
+      required: true
+      
   - type: dropdown
     attributes:
       label: Priority
