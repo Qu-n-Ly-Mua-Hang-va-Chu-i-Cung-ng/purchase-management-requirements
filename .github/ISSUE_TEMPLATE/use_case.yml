@@ -187,6 +187,7 @@ body:
       options:
         - Draft
         - Approved
+        - Proposed
         - Implemented
         - Tested
         - Done
